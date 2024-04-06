@@ -6,13 +6,15 @@ interface propsButton {
     handleClick?: (event: React.MouseEvent<HTMLButtonElement>) => void;
     width?: string;
     height?: string;
+    borderRadius?: string;
 }
 
 const Button = ({
     children,
     handleClick = () => { },
     width = 'auto',
-    height = 'auto'
+    height = 'auto',
+    borderRadius = '0.5rem'
 }: propsButton) => {
     return (
         <button
@@ -21,7 +23,8 @@ const Button = ({
             className={classes.button}
             style={{
                 width: width,
-                height: height
+                height: height,
+                borderRadius: borderRadius
             }}
         >
             {children}
