@@ -1,7 +1,7 @@
 {
   "name": "jhonyall_libraryui",
   "private": false,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A UI Library of react components create for personal use or not",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
@@ -9,6 +9,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JhonyAll/libraryui.git"
+  },
   "scripts": {
     "build": "rollup -c --bundleConfigAsCjs"
   },
