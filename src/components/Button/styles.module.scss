@@ -15,8 +15,9 @@
 @media (prefers-color-scheme: dark) {
   .button {
     background: #a855f7;
-    color: #a1a7af;
+    color: #efefef;
     &:hover {
+      color: #a1a7af;
       border: 1px solid #a1a7af;
     }
   }

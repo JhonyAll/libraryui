@@ -1,7 +1,7 @@
 {
   "name": "jhonyall_libraryui",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.11",
   "description": "A UI Library of react components create for personal use or not",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
