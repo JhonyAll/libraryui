@@ -1,0 +1,23 @@
+.button {
+  background: #c084fc;
+  padding: 1.75rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  user-select: none;
+  border: 1px solid #00000000;
+  transition: all ease-in-out 150ms;
+  &:hover {
+    background: #00000000;
+    border: 1px solid #000000dd;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .button {
+    background: #a855f7;
+    color: #a1a7af;
+    &:hover {
+      border: 1px solid #a1a7af;
+    }
+  }
+}
